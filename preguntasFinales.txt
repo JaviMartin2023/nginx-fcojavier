@@ -1,0 +1,5 @@
+1.-¿Qué pasa si no hago el link simbólico entre sites-available y sites-enabled de mi sitio web?
+Pues nuestro sitio web no se va activar y no vamos a poder acceder a él, ni por IP ni por nombre de dominio.
+
+2.-¿Qué pasa si no le doy permisos adecuados a /var/www/nombre_web?
+Nginx no va a poder acceder a los archivos que necesita para cargar la web y nos dará error.
